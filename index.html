@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML-Резюме</title>
+
+	<style>
+		span.spelling {
+			text-decoration: red solid underline;
+		}
+	</style>
+</head>
+
+
+
+<body>
+
+	<table cellspacing="20">
+		<tr>
+			<td>
+				<img src="person.jpeg" alt="Мое фото" width="200" />
+			</td>
+			<td>
+				<h1>Жданов Сергей</h1>
+				<p><em>Я <strong>крутой</strong> системный администратор</em></p>
+				<p>Я люблю <em>путешествовать, <span class="spelling">программировать</span></em> и смотреть кино.</p>
+			</td>
+		</tr>
+	</table>
+
+	<hr width="30%" align="left">
+
+	<h2>Мои социальные сети</h2>
+	<ul type="square">
+		<li><a href="https://instagramm.com/zhdanov.web" target="_blank">Instagram</a></li>
+		<li><a href="https://twitter.com/zhdanov.web" target="_blank">Twitter</a></li>
+		<li><a href="https://vk.com/zhdanov_sv" target="_blank">ВКонтакте</a></li>
+		<li><a href="https://t.me/zhdanovsv" target="_blank">Telegram</a></li>
+	</ul>
+
+	<hr width="30%" align="left">
+
+	<h2>Мои хобби</h2>
+	<ol>
+		<li>Рыбалка</li>
+		<li>Йога</li>
+		<li>Пазлы</li>
+		<li>Путешествия</li>
+	</ol>
+
+	<hr width="30%" align="left">
+
+	<h2>Опыт работы</h2>
+	<table border="1">
+		<tr>
+			<th>Место работы</th>
+			<th>Должность</th>
+			<th>Время работы</th>
+		</tr>
+		<tr>
+			<td>ООО "Гарант-Реги"</td>
+			<td>Системный администратор</td>
+			<td>2016-2017</td>
+		</tr>
+		<tr>
+			<td>АвтоШТАБ</td>
+			<td>Руководитель ИТ</td>
+			<td>2017-2020</td>
+		</tr>
+		<tr>
+			<td>ООО МКК "РЕМИ КАПИТАЛ"</td>
+			<td>Системный администратор</td>
+			<td>2020-2022</td>
+		</tr>
+	</table>
+	<br />
+	<hr width="30%" align="left">
+
+	<h2><a href="workpages.html" target="_blank">Мои web-работы</a></h2>
+
+	<hr width="30%" align="left">
+
+	<h2>Обратная связь</h2>
+
+	<form>
+		<label for="name">Ваше имя:</label>
+		<input type="text" id="name" placeholder="Ваше имя..."><br />
+		<label for="email">Ваш email:</label>
+		<input type="email" id="email" placeholder="Ваш email"><br />
+		<label for="phone">Ваш телефон:</label>
+		<input type="tel" id="phone" placeholder="Ваш телефон..."><br />
+		<label for="text">Ваше сообщение:</label><br />
+		<textarea id="text" cols="15" rows="2"></textarea><br />
+		<input type="submit" value="Отправить">
+	</form>
+
+
+
+</body>
+
+</html>
